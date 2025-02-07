@@ -51,7 +51,7 @@ Alternatively, you can use the CMake Tools extension in VS Code:
 3. Click the play button or select "Run" to execute the program
 
 ## Project Structure 
-
+```
 cpp-linked-list/
 ├── src/                 # Source files
 │   └── main.cpp        # Main program file
@@ -61,6 +61,7 @@ cpp-linked-list/
 ├── CMakeLists.txt      # CMake configuration
 ├── LICENSE             # MIT License file
 └── README.md          # This file
+```
 
 ## Implementation Details
 
