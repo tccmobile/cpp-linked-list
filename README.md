@@ -21,6 +21,23 @@ This project uses Visual Studio Code with the Dev Containers extension. The deve
 3. When prompted, click "Reopen in Container"
 4. The development environment will be automatically set up
 
+### Using GitHub Codespaces
+
+As an alternative to local development, you can use GitHub Codespaces:
+
+1. Navigate to the GitHub repository
+2. Click the green "Code" button
+3. Select the "Codespaces" tab
+4. Click "Create codespace on main"
+
+The codespace will automatically:
+- Set up the development environment
+- Install all necessary extensions
+- Configure CMake
+- Open the workspace in VS Code in your browser
+
+You can then proceed directly to the [Building and Running](#building-and-running) section.
+
 ## Building and Running
 
 This project uses CMake as its build system. To build and run the project:
@@ -37,7 +54,7 @@ This project uses CMake as its build system. To build and run the project:
 
 3. Build the project:
    ```bash
-   cmake --build .
+   make
    ```
 
 4. Run the executable:
